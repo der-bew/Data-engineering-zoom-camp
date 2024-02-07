@@ -74,3 +74,11 @@ docker run -it \
   --db=ny_taxi \
   --table_name=green_trip_data \
   --url=${URL}
+
+
+docker-compose up 
+
+or
+
+docker-compose up -d
+docker-compose down
